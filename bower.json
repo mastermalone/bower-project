@@ -20,5 +20,5 @@
   "devDependencies": {
     "jquery": "~2.1.3"
   },
-  "homepage": 'https://github.com/mastermalone/bower-project'
+  "homepage": "https://github.com/mastermalone/bower-project"
 }
