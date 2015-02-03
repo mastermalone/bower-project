@@ -1,0 +1,16 @@
+{
+  "name": "bower-project",
+  "version": "1.0.0",
+  "description": "Using Bower for web app framework package management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "installDep": "bower install"
+  },
+  "author": "Mike Malone",
+  "license": "ISC",
+  "dependencies": {
+    "concat": "^1.0.0",
+    "uglifyjs": "^2.3.6"
+  }
+}
