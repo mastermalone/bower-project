@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "installDep": "bower install"
+    "concat": "node tasks/join.js",
+    "uglify": "uglifyjs scripts/bower-project.js scripts/angular-app.js -o scripts/bundle/bower-project-min.js",
+    "installDep": "bower install && npm run uglify && npm run concat"
   },
   "author": "Mike Malone",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "concat": "^1.0.0",
-    "uglifyjs": "^2.3.6"
+    "uglify-js": "^2.4.16"
   }
 }
